@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# env files
+.env
+.env.local
+.env.production
+
+# build folders
+dist/
+build/
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+
+# package lock optional
+# package-lock.json
