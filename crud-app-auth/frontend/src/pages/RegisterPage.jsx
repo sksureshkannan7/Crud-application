@@ -1,7 +1,7 @@
 // src/pages/RegisterPage.jsx
 import { useState } from 'react';
 import toast from 'react-hot-toast';
-import { register } from '../api';
+import { register } from "../api";
 
 export default function RegisterPage({ onLogin, onGoLogin }) {
   const [form, setForm]       = useState({ username: '', email: '', password: '', confirm: '' });
@@ -232,7 +232,3 @@ const styles = {
     cursor: 'pointer',
   },
 };
-import axios from "axios";
-import API_URL from "./api";
-
-axios.get(`${API_URL}/api/users`);
