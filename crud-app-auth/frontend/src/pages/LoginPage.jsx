@@ -185,3 +185,7 @@ const styles = {
     transition: 'all 0.2s',
   },
 };
+import axios from "axios";
+import API_URL from "./api";
+
+axios.get(`${API_URL}/api/users`);
